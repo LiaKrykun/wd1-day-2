@@ -1,0 +1,29 @@
+body{
+    background-color: #F0F0D7;
+    color: #727D73;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2em;
+}
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.faq{
+    background-color: #AAB99A;
+    color: #F0F0D7;
+}
+
+table, th, td{
+    border: solid #727D73;
+    border-collapse: collapse;
+    text-align: center;
+}

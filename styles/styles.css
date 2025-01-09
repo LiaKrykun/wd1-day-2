@@ -1,0 +1,11 @@
+h2{
+    color: #ff0000;
+}
+
+table,th,td{
+	border: 1px solid gray;
+}
+
+.warning{
+    color: #ff0000;
+}
