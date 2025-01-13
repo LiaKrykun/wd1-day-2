@@ -3,10 +3,16 @@ body{
     color: #727D73;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 2em;
+    text-align: center;
+    margin: 0;
 }
 
-header{
-    font-family: 'Times New Roman', Times, serif;
+h1,h2,h3{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+img{
+    border: #727D73 outset;
 }
 
 h1{
@@ -17,13 +23,105 @@ h2{
     font-size: 2rem;
 }
 
-.faq{
+nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #727D73;
+    height: 5rem;
+    align-items: center;
+}
+
+nav>p{
+    color: #F0F0D7;
+    font-size: 1.2rem;
+}
+
+#navbar li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 3rem;
+    padding: 0;
+} 
+
+#navbar li a{
+    color: #F0F0D7;
+    text-decoration: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 10rem;
+}
+
+table{
+    margin: 5vh auto 10vh auto;
+    font-size: 1.2rem;
+}
+table, th, td{
+    border: solid #727D73;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+#support{
+    margin: 3rem 0;
+    padding: 2rem;
     background-color: #AAB99A;
     color: #F0F0D7;
 }
 
-table, th, td{
-    border: solid #727D73;
-    border-collapse: collapse;
-    text-align: center;
+#support div{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#support img{
+    width:25vw;
+}
+
+#responces{
+    width: 60%;
+    margin: 0 auto;
+}
+
+blockquote p{
+    background-color: #727D73;
+    color: #F0F0D7;
+    padding: 1rem;
+    border-radius: 20px;
+    font-style: italic;
+}
+
+#faq{
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    padding: 1vh;
+}
+
+#faq-buttons{
+    width: 30%;
+    margin: 0 auto;
+}
+.according{
+    width: 100%;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+.answer{
+    background-color: #727D73;
+    color: #F0F0D7;
+    border-radius: 25px;
+    padding: 1rem;
 }
